@@ -8,6 +8,8 @@
 A handy tool to generate common files in command line
 
 ```bash
+npm install toka -g
+
 toka
 toka -v
 toka .gitignore <LAUNGUAGE NAME>
