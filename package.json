@@ -1,6 +1,6 @@
 {
   "name": "toka",
-  "version": "0.1.1",
+  "version": "0.1.11",
   "description": "A handy tool to generate common files in command line",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/0x142857/gen.git"
+    "url": "https://github.com/0x142857/toka.git"
   },
   "preferGlobal": true,
   "keywords": [
