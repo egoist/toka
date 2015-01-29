@@ -50,8 +50,6 @@ The LICENSE type we support:
 
 By default, `toka` is also alias to `gg`.
 
->因为 NPM 上的 gen 被抢占了... 那就用董香女神的名字 QAQ
-
 Yap, here we go and go happy. 
 
 **Q: what does toka stand for?**
