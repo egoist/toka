@@ -1,5 +1,10 @@
 ## Toka
 
+[![NPM version](https://img.shields.io/npm/v/toka.svg?style=flat)](https://www.npmjs.com/package/toka)
+[![NPM download](https://img.shields.io/npm/dm/toka.svg?style=flat)](https://www.npmjs.com/package/toka)
+[![David Status](https://david-dm.org/0x142857/toka.svg)](https://david-dm.org/0x142857/toka)
+[![Build Status](https://travis-ci.org/0x142857/toka.svg?branch=master)](https://travis-ci.org/0x142857/toka)
+
 A handy tool to generate common files in command line
 
 ```bash
