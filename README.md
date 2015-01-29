@@ -38,6 +38,12 @@ By deault, `toka` is also alias to `gen`.
 
 Yap, here we go and go happy. 
 
+---
+
+**Q: what does toka stand for? **
+
+**A: My girlfriend, here she is: [NSFW](http://ww4.sinaimg.cn/large/a15b4afegw1enz38of1lug20dw07t1kx.gif)**
+
 ## LICENSE
 
 [MIT](LICENSE)
