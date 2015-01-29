@@ -26,9 +26,9 @@
   "author": "0x142857 <0x142857@gmail.com> (https://0x142857.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/0x142857/gen/issues"
+    "url": "https://github.com/0x142857/toka/issues"
   },
-  "homepage": "https://github.com/0x142857/gen",
+  "homepage": "https://github.com/0x142857/toka",
   "devDependencies": {
     "mocha": "^2.1.0"
   },
