@@ -15,12 +15,12 @@ npm install toka -g
 
 toka
 toka -v
-toka .gitignore <LAUNGUAGE NAMES> // Use -d to create a default .gitignore file
+toka .gitignore <LAUNGUAGE NAMES>
 toka .bowerrc <COMPONENT DIR>
 toka license <LICENSE NAME>
 ```
 
-arguements:
+Arguements:
 
 - -d : only generate default file (.gitignore)
 - -a : append to a existing file (.gitignore)
