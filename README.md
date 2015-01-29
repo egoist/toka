@@ -42,6 +42,8 @@ Yap, here we go and go happy.
 
 **A: My girlfriend, here she is: [NSFW](http://ww4.sinaimg.cn/large/a15b4afegw1enz38of1lug20dw07t1kx.gif)**
 
+> Recently, My girlfriend AKA toka wants a Mac to help her work better, considering it is filled with my love to toka and you Github lovers, you may donate some $ to me. Paypal and Alipay account both are i@0x142857.com
+
 ## LICENSE
 
 [MIT](LICENSE)
