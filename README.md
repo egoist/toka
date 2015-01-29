@@ -1,11 +1,12 @@
 ## Toka
 
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/0x142857/toka?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![NPM version](https://img.shields.io/npm/v/toka.svg?style=flat)](https://www.npmjs.com/package/toka)
 [![NPM download](https://img.shields.io/npm/dm/toka.svg?style=flat)](https://www.npmjs.com/package/toka)
 [![David Status](https://david-dm.org/0x142857/toka.svg)](https://david-dm.org/0x142857/toka)
 [![Build Status](https://travis-ci.org/0x142857/toka.svg?branch=master)](https://travis-ci.org/0x142857/toka)
 
-A handy tool to generate common files in command line
+### A handy tool to generate common files in command line
 
 I used to search in Google then copy and paste these files, silly.
 
