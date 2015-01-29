@@ -1,0 +1,42 @@
+{
+  "name": "toka",
+  "version": "0.1.0",
+  "description": "A handy tool to generate common files in command line",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./bin/gen.js"
+  },
+  "bin": {
+    "gen": "./bin/gen.js",
+    "toka": "./bin/gen.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0x142857/gen.git"
+  },
+  "preferGlobal": true,
+  "keywords": [
+    "gen",
+    "files",
+    "terminal",
+    "gitignore",
+    "LICENSE",
+    "bower"
+  ],
+  "author": "0x142857 <0x142857@gmail.com> (https://0x142857.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0x142857/gen/issues"
+  },
+  "homepage": "https://github.com/0x142857/gen",
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  },
+  "dependencies": {
+    "colorful": "^2.1.0",
+    "handlebars": "^2.0.0",
+    "ini": "^1.3.2",
+    "prompt": "^0.2.14",
+    "request": "^2.51.0"
+  }
+}
