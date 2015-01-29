@@ -6,7 +6,7 @@
 [![David Status](https://david-dm.org/0x142857/toka.svg)](https://david-dm.org/0x142857/toka)
 [![Build Status](https://travis-ci.org/0x142857/toka.svg?branch=master)](https://travis-ci.org/0x142857/toka)
 
-A handy tool to generate common files in command line
+### A handy tool to generate common files in command line
 
 I used to search in Google then copy and paste these files, silly.
 
