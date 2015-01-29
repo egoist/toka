@@ -1,13 +1,13 @@
 {
   "name": "toka",
-  "version": "0.2.12",
+  "version": "0.2.13",
   "description": "A handy tool to generate common files in command line",
   "main": "index.js",
   "scripts": {
     "test": "mocha ./bin/gen.js"
   },
   "bin": {
-    "gg": "./bin/gen.js",
+    "gig": "./bin/gen.js",
     "toka": "./bin/gen.js"
   },
   "repository": {
