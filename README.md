@@ -48,7 +48,7 @@ The LICENSE type we support:
 - MPL-2.0
 - WTF
 
-By default, `toka` is also alias to `gig`.
+By default, `toka` is also alias to `gen`.
 
 Yap, here we go and go happy. 
 
