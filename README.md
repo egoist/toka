@@ -33,7 +33,7 @@ The LICENSE type we support:
 - MPL-2.0
 - WTF
 
-By deault, `toka` is also alias to `gen`.
+By default, `toka` is also alias to `gen`.
 
 >因为 NPM 上的 gen 被抢占了... 那就用董香女神的名字 QAQ
 
