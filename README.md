@@ -23,7 +23,7 @@ toka license <LICENSE NAME>
 Arguements:
 
 - -d : generate default file (.gitignore)
-- -a : append to a existing file (.gitignore)
+- -a : append to an existing file (.gitignore)
 
 Example:
 
