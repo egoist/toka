@@ -17,6 +17,19 @@ toka .bowerrc <COMPONENT DIR>
 toka license <LICENSE NAME>
 ```
 
+The `.gitignore` languages we support: [Full List](lib/list/gitignore.js)
+
+The LICENSE type we support: 
+
+- Apache-2.0
+- BSD-2
+- BSD-3
+- GPL-2.0
+- ISC
+- MIT
+- MPL-2.0
+- WTF
+
 By deault, `toka` is also alias to `gen`.
 
 >因为 NPM 上的 gen 被抢占了... 那就用董香女神的名字 QAQ
