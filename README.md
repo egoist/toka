@@ -22,7 +22,7 @@ toka license <LICENSE NAME>
 
 Arguements:
 
-- -d : only generate default file (.gitignore)
+- -d : generate default file (.gitignore)
 - -a : append to a existing file (.gitignore)
 
 Example:
@@ -48,7 +48,7 @@ The LICENSE type we support:
 - MPL-2.0
 - WTF
 
-By default, `toka` is also alias to `gen`.
+By default, `toka` is also alias to `gg`.
 
 >因为 NPM 上的 gen 被抢占了... 那就用董香女神的名字 QAQ
 
