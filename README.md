@@ -1,6 +1,6 @@
 ## Toka
 
-[!donate](https://img.shields.io/gratipay/kchanzen.svg)](https://gratipay.com/kchanzen/)
+[![donate](https://img.shields.io/gratipay/kchanzen.svg)](https://gratipay.com/kchanzen/)
 [![NPM version](https://img.shields.io/npm/v/toka.svg?style=flat)](https://www.npmjs.com/package/toka)
 [![NPM download](https://img.shields.io/npm/dm/toka.svg?style=flat)](https://www.npmjs.com/package/toka)
 [![David Status](https://david-dm.org/kchanzen/toka.svg)](https://david-dm.org/kchanzen/toka)
