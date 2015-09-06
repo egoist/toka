@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 require('colorful').toxic()
 
 if (!process.argv[2]) {
@@ -12,5 +13,8 @@ if (!process.argv[2]) {
 }
 
 var gen = require('..');
+var argv = require('minimist')(process.argv.slice(2), {
+  '--': true
+});
 
-gen(process.argv.slice(2));
+gen(argv);
