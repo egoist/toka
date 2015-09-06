@@ -19,7 +19,7 @@ toka license <LICENSE NAME>         # alias to toka l
 toka webpack                        # alias to toka w
 ```
 
-#### Arguements:
+#### Arguments:
 
 gitignore only:
 
