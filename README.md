@@ -1,10 +1,8 @@
 ## Toka
 
-[![donate](https://img.shields.io/gratipay/kchanzen.svg)](https://gratipay.com/kchanzen/)
 [![NPM version](https://img.shields.io/npm/v/toka.svg?style=flat)](https://www.npmjs.com/package/toka)
 [![NPM download](https://img.shields.io/npm/dm/toka.svg?style=flat)](https://www.npmjs.com/package/toka)
-[![David Status](https://david-dm.org/kchanzen/toka.svg)](https://david-dm.org/kchanzen/toka)
-[![Build Status](https://travis-ci.org/kchanzen/toka.svg?branch=master)](https://travis-ci.org/chanzen/toka)
+[![David Status](https://david-dm.org/aprilorange/toka.svg)](https://david-dm.org/aprilorange/toka)
 
 ### A handy tool to generate common files in command line
 
@@ -15,9 +13,9 @@ npm install toka -g
 
 toka
 toka -v
-toka .gitignore <LAUNGUAGE NAMES>
-toka .bowerrc <COMPONENT DIR>
-toka license <LICENSE NAME>
+toka .gitignore <LAUNGUAGE NAMES>   # alias to toka g
+toka .bowerrc <COMPONENT DIR>       # alias to toka b
+toka license <LICENSE NAME>         # alias to toka l
 ```
 
 Arguements:
@@ -28,7 +26,7 @@ Arguements:
 Example:
 
 ```bash
-toka .gitignore -d 
+toka .gitignore -d
 toka .gitignore python,go -a
 toka .gitignore windows
 toka .bowerrc lib
@@ -37,7 +35,9 @@ toka license MIT
 
 The `.gitignore` languages we support: [Full List](lib/list/gitignore.js)
 
-The LICENSE type we support: 
+The LICENSE type we support:
+
+(Fuzzy search is now supported! It means you can simply type things like `toka l apa` to add Apache license)
 
 - Apache-2.0
 - BSD-2
@@ -48,9 +48,7 @@ The LICENSE type we support:
 - MPL-2.0
 - WTF
 
-By default, `toka` is also alias to `gen`.
-
-Yap, here we go and go happy. 
+Yap, here we go and go happy.
 
 **Q: what does toka stand for?**
 
@@ -59,4 +57,3 @@ Yap, here we go and go happy.
 ## LICENSE
 
 [MIT](LICENSE)
-

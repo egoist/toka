@@ -1,18 +1,17 @@
 {
   "name": "toka",
-  "version": "0.2.16",
+  "version": "0.2.2",
   "description": "A handy tool to generate common files in command line",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./bin/gen.js"
+    "test": "exit"
   },
   "bin": {
-    "gen": "./bin/gen.js",
-    "toka": "./bin/gen.js"
+    "toka": "./bin/toka.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/0x142857/toka.git"
+    "url": "https://github.com/aprilorange/toka.git"
   },
   "preferGlobal": true,
   "keywords": [
@@ -26,15 +25,12 @@
   "author": "0x142857 <0x142857@gmail.com> (https://0x142857.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/0x142857/toka/issues"
+    "url": "https://github.com/aprilorange/toka/issues"
   },
-  "homepage": "https://github.com/0x142857/toka",
-  "devDependencies": {
-    "mocha": "^2.1.0"
-  },
+  "homepage": "https://github.com/aprilorange/toka",
   "dependencies": {
     "colorful": "^2.1.0",
-    "handlebars": "^2.0.0",
-    "ini": "^1.3.2"
+    "handlebars": "^4.0.2",
+    "ini": "^1.3.4"
   }
 }
