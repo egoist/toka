@@ -1,8 +1,8 @@
 ## Toka
 
-[![NPM version](https://img.shields.io/npm/v/toka.svg?style=flat)](https://www.npmjs.com/package/toka)
-[![NPM download](https://img.shields.io/npm/dm/toka.svg?style=flat)](https://www.npmjs.com/package/toka)
-[![David Status](https://david-dm.org/aprilorange/toka.svg)](https://david-dm.org/aprilorange/toka)
+[![NPM version](https://img.shields.io/npm/v/toka.svg?style=flat-square)](https://www.npmjs.com/package/toka)
+[![NPM download](https://img.shields.io/npm/dm/toka.svg?style=flat-square)](https://www.npmjs.com/package/toka)
+[![David Status](https://img.shields.io/david/aprilorange/toka.svg?style=flat-square)](https://david-dm.org/aprilorange/toka)
 
 ### A handy tool to generate common files in command line
 
