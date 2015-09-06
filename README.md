@@ -16,12 +16,21 @@ toka -v
 toka .gitignore <LAUNGUAGE NAMES>   # alias to toka g
 toka .bowerrc <COMPONENT DIR>       # alias to toka b
 toka license <LICENSE NAME>         # alias to toka l
+toka webpack                        # alias to toka w
 ```
 
-Arguements:
+#### Arguements:
 
-- -d : generate default file (.gitignore)
-- -a : append to an existing file (.gitignore)
+gitignore only:
+
+- -d : generate default file
+- -a : append to an existing file
+
+webpack only:
+
+- -p/--path
+- -f/--filename
+- -e/--entry
 
 Example:
 
@@ -31,6 +40,7 @@ toka .gitignore python,go -a
 toka .gitignore windows
 toka .bowerrc lib
 toka license MIT
+toka webpack -e src/app/app.js -p /build/js -f bundle.js
 ```
 
 The `.gitignore` languages we support: [Full List](lib/list/gitignore.js)
