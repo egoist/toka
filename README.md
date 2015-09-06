@@ -13,10 +13,11 @@ npm install toka -g
 
 toka
 toka -v
-toka .gitignore <LAUNGUAGE NAMES>   # alias to toka g
+toka .gitignore <LAUNGUAGE NAMES>   # alias to toka g/git
 toka .bowerrc <COMPONENT DIR>       # alias to toka b
 toka license <LICENSE NAME>         # alias to toka l
 toka webpack                        # alias to toka w
+toka gulp                           # alias to toka gu
 ```
 
 #### Arguments:
@@ -32,6 +33,10 @@ webpack only:
 - -f/--filename
 - -e/--entry
 
+gulp only:
+
+- -b/--babel : use gulpfile.babel.js
+
 Example:
 
 ```bash
@@ -40,6 +45,7 @@ toka .gitignore python,go -a
 toka .gitignore windows
 toka .bowerrc lib
 toka license MIT
+toka gulp -b
 toka webpack -e src/app/app.js -p /build/js -f bundle.js
 ```
 
