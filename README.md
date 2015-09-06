@@ -23,8 +23,8 @@ toka webpack                        # alias to toka w
 
 gitignore only:
 
-- -d : generate default file
-- -a : append to an existing file
+- -d/--default : generate default file
+- -a/--append : append to an existing file
 
 webpack only:
 
