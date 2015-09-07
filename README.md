@@ -26,6 +26,7 @@ gitignore only:
 
 - -d/--default : generate default file
 - -a/--append : append to an existing file
+- -g/--global : save to ~/.gitignore_global
 
 webpack only:
 
