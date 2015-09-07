@@ -6,7 +6,7 @@
 
 ### A handy tool to generate common files in command line
 
-I used to search in Google then copy and paste these files, silly.
+I used to searching in Google then copy and paste these files, silly.
 
 ```bash
 npm install toka -g
