@@ -9,9 +9,9 @@ if (!process.argv[2]) {
   console.log('  $ '.cyan + 'toka .gitignore <LAUNGUAGE NAMES>');
   console.log('  $ '.cyan + 'toka .bowerrc <COMPONENT DIR>');
   console.log('  $ '.cyan + 'toka license <LICENSE NAME>');
-  return;
+  process.exit()
 }
-
+console.log('hi')
 var gen = require('..');
 var argv = require('minimist')(process.argv.slice(2), {
   '--': true
