@@ -9,7 +9,6 @@ if (!process.argv[2]) {
   console.log('  $ '.cyan + 'toka license <LICENSE NAME>');
   process.exit();
 }
-console.log('hi');
 var gen = require('..');
 var argv = require('minimist')(process.argv.slice(2), { '--': true });
 gen(argv);
