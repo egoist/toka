@@ -64,6 +64,7 @@ The LICENSE type we support:
 - MIT
 - MPL-2.0
 - WTF
+- [SOX](https://github.com/egoist/sox-license)
 
 Yap, here we go and go happy.
 
