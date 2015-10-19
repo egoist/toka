@@ -7,6 +7,10 @@ if (!process.argv[2]) {
   console.log('  $ '.cyan + 'toka .gitignore <LAUNGUAGE NAMES>');
   console.log('  $ '.cyan + 'toka .bowerrc <COMPONENT DIR>');
   console.log('  $ '.cyan + 'toka license <LICENSE NAME>');
+  console.log('  $ '.cyan + 'toka webpack');
+  console.log('  $ '.cyan + 'toka gulp');
+  console.log('');
+  console.log('see advanced usage: (cmd + click)'.grey, 'https://github.com/egoist/toka'.underline);
   process.exit();
 }
 var gen = require('..');
