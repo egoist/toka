@@ -18,6 +18,24 @@ toka .bowerrc <COMPONENT DIR>       # alias to toka b
 toka license <LICENSE NAME>         # alias to toka l
 toka webpack                        # alias to toka w
 toka gulp                           # alias to toka gu
+toka dl <NAME|URL>                  # alias to toka d/download   
+```
+
+**New feature!**
+
+```bash
+>_ toka dl https://some-url.com/webpack.config.dev.js --name hotreload
+:: hotreload is saved to your config file!
+
+>_ toka dl hotreload
+:: fetch : https://some-url.com/webpack.config.dev.js
+::   progress : [====================] 100% 0.0s
+
+:: hotreload is saved to current dir!
+
+# works like wget <url> when not appending `--name`
+>_ toka dl http://use-url-directly-is-ok-too.com/a.js
+
 ```
 
 #### Arguments:
