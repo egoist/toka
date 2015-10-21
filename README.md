@@ -27,16 +27,19 @@ gitignore only:
 - -d/--default : generate default file
 - -a/--append : append to an existing file
 - -g/--global : save to ~/.gitignore_global
+- --dir: the directory to save to
 
 webpack only:
 
 - -p/--path
 - -f/--filename
 - -e/--entry
+- --dir: the directory to save to
 
 gulp only:
 
 - -b/--babel : use gulpfile.babel.js
+- --dir: the directory to save to
 
 Example:
 
