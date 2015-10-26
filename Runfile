@@ -1,0 +1,12 @@
+task.add('deploy', ['git', 'publish'])
+
+task.add('git', () => {
+  var message = argv._[1] || 'update'
+  exec('git add -A')
+  exec(`git commit -m "${message}"`)
+  exec('git push origin master')
+})
+
+task.add('publish', () => {
+  exec('npm publish')
+})
