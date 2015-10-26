@@ -1,6 +1,6 @@
 {
   "name": "toka",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "A handy tool to generate common files in command line",
   "main": "index.js",
   "scripts": {
