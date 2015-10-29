@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 require('colorful').toxic();
+global.log = require('typelog')
 if (!process.argv[2]) {
   console.log('toka ~ ' + require('../package').version.green);
   console.log('A handy tool to generate common files in command line'.grey);
