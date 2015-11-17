@@ -30,7 +30,7 @@
   "homepage": "https://github.com/aprilorange/toka",
   "dependencies": {
     "colorful": "^2.1.0",
-    "download": "^4.4.1",
+    "download": "^4.4.2",
     "download-status": "^2.2.1",
     "handlebars": "^4.0.4",
     "ini": "^1.3.4",
