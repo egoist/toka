@@ -1,0 +1,29 @@
+#!/usr/bin/env node
+'use strict'
+
+/**
+ * Module dependencies
+ */
+const minimist = require('minimist')
+const update = require('update-notifier')
+const app = require('./lib/app')
+
+/**
+ * Package info
+ */
+const pkg = require('./package')
+
+/**
+ * Run notifier
+ */
+update({pkg}).notify()
+
+/**
+ * Parse cli arguments
+ */
+const argv = minimist(process.argv.slice(2), {'--': true})
+
+/**
+ * Initial app
+ */
+app(argv)

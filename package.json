@@ -1,42 +1,32 @@
 {
   "name": "toka",
-  "version": "0.4.32",
-  "description": "A handy tool to generate common files in command line",
-  "main": "index.js",
-  "scripts": {
-    "test": "exit"
-  },
-  "bin": {
-    "toka": "./bin/toka.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/aprilorange/toka.git"
-  },
-  "preferGlobal": true,
-  "keywords": [
-    "gen",
-    "files",
-    "terminal",
-    "gitignore",
-    "LICENSE",
-    "bower"
-  ],
-  "author": "0x142857 <0x142857@gmail.com> (https://0x142857.com/)",
+  "version": "0.0.0",
+  "description": "A tool to improve your productivity to next level.",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/aprilorange/toka/issues"
+  "repository": "egoist/toka",
+  "author": {
+    "name": "EGOIST",
+    "email": "0x142857@gmail.com",
+    "url": "github.com/egoist"
   },
-  "homepage": "https://github.com/aprilorange/toka",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "bin": "./toka",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "keywords": [
+    ""
+  ],
   "dependencies": {
-    "colorful": "^2.1.0",
-    "download": "^4.4.3",
-    "download-status": "^2.2.1",
-    "handlebars": "^4.0.4",
-    "ini": "^1.3.4",
-    "minimist": "^1.2.0",
-    "myconf": "0.0.21",
-    "typelog": "0.1.2",
-    "user-home": "^2.0.0"
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "ava": "^0.10.0",
+    "xo": "^0.12.1"
+  },
+  "xo": {
+    "semicolon": false
   }
 }
