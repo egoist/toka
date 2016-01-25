@@ -7,6 +7,8 @@
 const minimist = require('minimist')
 const update = require('update-notifier')
 const app = require('./lib/app')
+// toxic string prototype to use color
+require('colorful').toxic()
 
 /**
  * Package info
